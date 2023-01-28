@@ -16,8 +16,6 @@ require('./Config/database')
 app.use(cors())
 app.use(express.json())
 app.use('/books', booksRouter)
-// app.use('/user', userRouter)
-// Routes
 
 // Hello world route
 app.get("/", (req,res)=> {
